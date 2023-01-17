@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+}
+
+#tetris-bg {
+  background-image: url("../Images/tetris-grid-bg.png");
+  position: relative;
+  width: 300px;
+  height: 600px;
+
+}
+.block {
+  width: 30px;
+  height: 30px;
+  position: absolute
+}
+.L{
+  background-color: black;
+}
+.O{
+  background-color:blue;
+}
+.Z{
+  background-color: brown;
+}
+.S{
+  background-color:rebeccapurple ;
+}
+.T{
+  background-color: aquamarine;
+}
+.I{
+  background-color: yellowgreen;
+}
+
+.shape {
+  
+}

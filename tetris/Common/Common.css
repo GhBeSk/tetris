@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* li a:hover:not(.active) {
+    background-color: #111;
+} */
+
+/* .active {
+    background-color: #04AA6D;
+} */
+
+.login-box {
+    margin: auto auto;
+    /* padding: 30px; */
+    display:grid;
+    place-items:center;
+    
+    width:560px; 
+    height: 700px;
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px #888888;
+    background-color: #c7c7c7;
+}
